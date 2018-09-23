@@ -87,7 +87,7 @@ p
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
-	color: #929191;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -993,7 +993,7 @@ section
 .offers {
     width: 100%;
     padding-top: 105px;
-    padding-bottom: 43px;
+    /*padding-bottom: 43px;*/
     background: #f3f6f9;
 }
 .offers_items{
@@ -2364,6 +2364,14 @@ Rooms
     font-size: 14px;
     font-weight: bold;
     color: #fa9e1b;
+}
+
+.booking-banner {
+	padding: 0; 
+}
+
+.booking-banner img {
+	width: 100%;
 }
 
 

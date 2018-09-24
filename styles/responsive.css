@@ -297,7 +297,7 @@
 	}
 	.about_image img
 	{
-		max-width: 90vw;
+		max-width: 50vw;
 	}
 	.about_content
 	{
@@ -739,5 +739,19 @@
 	}
 	.about_logo {
 	    left: 45px;
+	}
+}
+
+/************
+15. 310px
+************/
+
+@media only screen and (max-width: 310px)
+{
+	.copyright_content div {
+		font-size:8px;
+	}
+	.copyright_content.right {
+	    margin-left: 75px;
 	}
 }
